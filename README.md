@@ -39,7 +39,10 @@ World Wide Web Services -> Application Development Features -> [X] CGI
 ![image](https://github.com/user-attachments/assets/97255c0f-f641-4ecd-8aac-7e3887dfeb28)
 
 
-- Item 4
+- From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+-![image](https://github.com/user-attachments/assets/cfd7b4bf-6bca-447d-ba97-d0034cebeb5a)
+ 
+
 - Item 5
 
 <h2>Installation Steps</h2>

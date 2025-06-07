@@ -36,16 +36,36 @@ We will use the files in this folder to install osTicket and some of the depende
 
 - Install / Enable IIS in Windows WITH CGI
 World Wide Web Services -> Application Development Features -> [X] CGI
+
 ![image](https://github.com/user-attachments/assets/97255c0f-f641-4ecd-8aac-7e3887dfeb28)
 
 
 - From the “osTicket-Installation-Files” folder, install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
--![image](https://github.com/user-attachments/assets/cfd7b4bf-6bca-447d-ba97-d0034cebeb5a)
+
+![image](https://github.com/user-attachments/assets/cfd7b4bf-6bca-447d-ba97-d0034cebeb5a)
  
 
-- 
-From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi)
+- From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi)
+
 ![image](https://github.com/user-attachments/assets/991e434d-f194-41c4-b197-80a1f5157c0c)
+
+- Create the directory C:\PHP
+
+![image](https://github.com/user-attachments/assets/995b0836-1e16-4653-80c8-24c801ff77db)
+
+
+- From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
+
+![image](https://github.com/user-attachments/assets/2aefde21-0aad-4b84-93e8-bd489882c675)
+
+
+- From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
+
+![image](https://github.com/user-attachments/assets/5cb63d1e-548a-4eae-a0b5-fd22fb04415a)
+
+
+
+
 
 
 <h2>Installation Steps</h2>

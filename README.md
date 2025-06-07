@@ -43,7 +43,10 @@ World Wide Web Services -> Application Development Features -> [X] CGI
 -![image](https://github.com/user-attachments/assets/cfd7b4bf-6bca-447d-ba97-d0034cebeb5a)
  
 
-- Item 5
+- 
+From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi)
+![image](https://github.com/user-attachments/assets/991e434d-f194-41c4-b197-80a1f5157c0c)
+
 
 <h2>Installation Steps</h2>
 

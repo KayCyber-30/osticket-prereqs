@@ -34,7 +34,11 @@ We will use the files in this folder to install osTicket and some of the depende
 
 ![image](https://github.com/user-attachments/assets/214d44e7-4504-41f7-b196-e199cc18ffb6)
 
-- Item 3
+- Install / Enable IIS in Windows WITH CGI
+World Wide Web Services -> Application Development Features -> [X] CGI
+![image](https://github.com/user-attachments/assets/97255c0f-f641-4ecd-8aac-7e3887dfeb28)
+
+
 - Item 4
 - Item 5
 

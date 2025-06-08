@@ -72,9 +72,76 @@ Standard Configuration ->
 ![image](https://github.com/user-attachments/assets/fadcf814-f751-4f32-9a00-bc6f7c733086)
 
 
-- Open IIS as an Admin, Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
+- Open IIS as an Admin, Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe), Reload IIS (Open IIS, Stop and Start the server)
 
 ![image](https://github.com/user-attachments/assets/f450d093-54d5-4b9a-9396-cbf51c92a3b4)
+
+- Install osTicket v1.15.8
+From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
+Within “c:\inetpub\wwwroot”, rename “upload” to “osTicket”, Reload IIS (Open IIS, Stop and start the server)
+
+![image](https://github.com/user-attachments/assets/36758585-0be4-4413-a801-852d04ec9ce6)
+
+
+- Go to sites -> Default -> osTicket
+On the right, click “Browse *:80”
+
+![image](https://github.com/user-attachments/assets/34cce359-2a23-4cde-a3d8-523c1628656d)
+
+
+- Note that some extensions are not enabled
+Go back to IIS, sites -> Default -> osTicket
+Double-click PHP Manager
+Click “Enable or disable an extension.”
+Enable: php_imap.dll
+Enable: php_intl.dll
+Enable: php_opcache.dll
+Refresh the osTicket site in your browser, and observe the changes
+
+![image](https://github.com/user-attachments/assets/77436053-e02c-44c6-a6e3-ccbbe53af432)
+
+
+- Rename: ost-config.php
+From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+![image](https://github.com/user-attachments/assets/a27de6f3-aa3e-4f87-a311-7ac70be74e50)
+
+
+- Assign Permissions: ost-config.php
+Disable inheritance -> Remove All
+New Permissions -> Everyone -> All
+
+![image](https://github.com/user-attachments/assets/1b039ec3-294b-4cfa-bf0b-15064890fc50)
+
+
+- Continue setting up osTicket in the browser (click Continue)
+Name Helpdesk
+The default email (receives email from customers)
+
+![image](https://github.com/user-attachments/assets/002c2bfa-3ccd-455b-a1c9-6a4e65dcc12a)
+
+
+- From the “osTicket-Installation-Files” folder, install HeidiSQL.
+Open Heidi SQL
+Create a new session, root/root
+Connect to the session
+Create a database called “osTicket”
+
+
+
+- Continue Setting up osTicket in the browser
+MySQL Database: osTicket
+MySQL Username: root
+MySQL Password: root
+Click “Install Now!”
+
+
+
+
+
+
+
 
 
   

@@ -140,6 +140,11 @@ MySQL Username: root
 MySQL Password: root
 Click “Install Now!”
 
+![image](https://github.com/user-attachments/assets/ae559643-8539-45d6-a0c5-4ef18957ee21)
+
+
+
+![image](https://github.com/user-attachments/assets/1556d9b3-4425-4d1a-8025-1a86f9f259e8)
 
 
 

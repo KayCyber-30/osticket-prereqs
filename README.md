@@ -64,6 +64,25 @@ World Wide Web Services -> Application Development Features -> [X] CGI
 ![image](https://github.com/user-attachments/assets/5cb63d1e-548a-4eae-a0b5-fd22fb04415a)
 
 
+- From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+Typical Setup ->
+Launch Configuration Wizard (after install) ->
+Standard Configuration ->
+
+![image](https://github.com/user-attachments/assets/fadcf814-f751-4f32-9a00-bc6f7c733086)
+
+
+- Open IIS as an Admin, Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
+
+![image](https://github.com/user-attachments/assets/f450d093-54d5-4b9a-9396-cbf51c92a3b4)
+
+
+  
+
+
+
+
+
 
 
 

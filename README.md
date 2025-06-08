@@ -130,6 +130,8 @@ Create a new session, root/root
 Connect to the session
 Create a database called “osTicket”
 
+![image](https://github.com/user-attachments/assets/244b9ccc-4a97-41e3-b3b2-63ee3480bd36)
+
 
 
 - Continue Setting up osTicket in the browser
